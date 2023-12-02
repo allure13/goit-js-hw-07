@@ -13,69 +13,43 @@ body {
   line-height: 1.5;
 }
 /*-----------------------------------------------TASK 1--------------------------------------------------------*/
-.list {
-  list-style-type: none;
-}
-
-/* .task-1-list {
-  display: flex;
-  padding: 16px;
-}
-
-.list-full-wrap {
-  display: flex;
-  padding: 24px;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px;
-  border-radius: 8px;
-  background: #fff;
-}
-
-.wrapper {
-  border-radius: 8px;
-  background: #f6f6fe;
-}
-
-.list-item {
-  border-radius: 4px;
-  border: 1px solid #808080;
-  width: 360px;
-  height: 40px;
-} */
-
 #categories {
-  list-style: none; /* Відключаємо маркери списку */
-  padding: 0; /* Знімаємо внутрішній відступ у списку */
-  display: flex; /* Встановлюємо властивість display на flex для контейнера ul */
-  justify-content: space-around; /* Розміщуємо контейнери ul рівномірно за всією шириною батьківського контейнера */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
   max-width: 480px;
 }
 
-/* Стилі для кожного контейнера div зі списком */
+.list-full-wrap {
+  gap: 24px;
+}
+
+
 .wrapper {
-  padding: 8px; /* Додаємо внутрішній відступ для зручності */
+  padding: 8px; 
   border-radius: 8px;
   background: #f6f6fe;
 }
 
-/* Стилі для кожного списку ul */
+
 .list {
-  list-style: none; /* Відключаємо маркери списку */
-  padding: 0; /* Знімаємо внутрішній відступ у списку */
-}
+  list-style: none; 
+  padding: 0; 
 
-/* Стилі для кожного елемента li */
+
 .list-item {
-  border: 1px solid #ddd; /* Додаємо рамку для кожного елемента */
-  margin: 5px 0; /* Встановлюємо зовнішній відступ для зручності */
-  padding: 5px; /* Додаємо внутрішній відступ для зручності */
+  border: 1px solid #ddd; 
+  margin: 5px 0; 
+  padding: 8px 16px; 
+  border-radius: 8px;
+  background: #f6f6fe;
 }
 
-/* Стилі для заголовків h2 у кожному контейнері div */
+
 .wrapper h2 {
-  margin: 0; /* Знімаємо зовнішній відступ заголовка */
+  margin: 0; 
 }
 /*-----------------------------------------------TASK 1--------------------------------------------------------*/
 .gallery {
